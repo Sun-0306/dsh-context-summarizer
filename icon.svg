@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Context Summarizer">
+  <!-- Original artwork: an over-long stack of lines folding down into one summary block. -->
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="#103a5c"/>
+  <g stroke="#7fc4ff" stroke-width="3.4" stroke-linecap="round">
+    <path d="M18 17h28"/>
+    <path d="M18 24h28"/>
+    <path d="M18 31h20"/>
+  </g>
+  <path d="M32 37.5v7.5" stroke="#eaf6ff" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M26.5 40.5 32 46l5.5-5.5" fill="none" stroke="#eaf6ff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="50" width="24" height="5" rx="2.5" fill="#7fc4ff"/>
+</svg>

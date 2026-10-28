@@ -1,0 +1,11 @@
+# dsh-context-summarizer bundle patch: inserts the dual-face plugin row.
+#
+# The row is a bare plugin by package name. The node half (exports ".") runs in
+# the Host process and exposes the token-gated /dsh-ctx-summary HTTP surface that
+# measures the live Session context and runs manual compaction through the Host
+# `compaction` service. The `dsh.client` declaration in package.json makes the
+# browser half (exports "./client") load in the Web GUI, where it contributes the
+# left-sidebar row and the "Context Summarizer" page.
+- insert:
+    - id: dsh-context-summarizer
+      name: dsh-context-summarizer
